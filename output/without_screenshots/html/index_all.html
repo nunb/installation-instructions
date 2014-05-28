@@ -3,13 +3,13 @@
 <html > 
 <head><title>Setting Up a pbdR Environment
 Installing MPI, R, and pbdR
-Version 1.1</title> 
+Version 1.2</title> 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
 <!-- html --> 
 <meta name="src" content="index.tex"> 
-<meta name="date" content="2014-02-14 18:24:00"> 
+<meta name="date" content="2014-05-28 14:04:00"> 
 <link rel="stylesheet" type="text/css" href="index.css"> 
 </head><body 
 >
@@ -22,7 +22,7 @@ Version 1.1</title>
 
 <h2 class="titleHead">Setting Up a pbdR Environment<br />
 Installing MPI, R, and pbdR<br /><br />
-Version 1.1</h2>
+Version 1.2</h2>
 <div class="author" > <div class="minipage"><span 
 class="rm-lmr-12">Prepared by the pbdR Core Team:</span><br /><br />
 <span 
@@ -34,9 +34,9 @@ class="rm-lmri-10">University of Tennessee, Knoxville</span><br /><br />
 <span 
 class="rm-lmr-12">Wei-Chen Chen</span><br />
 <span 
-class="rm-lmri-10">Computer Science and Mathematics Division,</span><br />
+class="rm-lmri-10">Department of Ecology and Evolutionary Biology,</span><br />
 <span 
-class="rm-lmri-10">Oak Ridge National Laboratory</span><br /><br />
+class="rm-lmri-10">University of Tennessee, Knoxville</span><br /><br />
 <span 
 class="rm-lmr-12">Pragneskumar Patel</span><br />
 <span 
@@ -54,7 +54,7 @@ class="rm-lmri-10">Oak Ridge National Laboratory</span>                         
 </div>
 <!--l. 114--><p class="noindent" >&#x00A0;
 <!--l. 116--><p class="noindent" ><span 
-class="lmsy-10x-x-109">©</span>&#x00A0;2013 pbdR Core Team. All rights reserved.
+class="lmsy-10x-x-109">©</span>&#x00A0;2013-2014 pbdR Core Team. All rights reserved.
 <!--l. 118--><p class="noindent" >Permission is granted to make and distribute verbatim copies of this manual provided the copyright notice and
 this permission notice are preserved on all copies.
 <!--l. 120--><p class="noindent" >Permission is granted to copy and distribute modified versions of this manual under the conditions for
@@ -90,7 +90,7 @@ href="#x1-80003.1" id="QQ2-1-9">Installing R</a></span>
 <br />&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<span class="subsectionToc" >3.2 <a 
 href="#x1-90003.2" id="QQ2-1-10">Installing Rtools</a></span>
 <br />&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<span class="subsectionToc" >3.3 <a 
-href="#x1-100003.3" id="QQ2-1-11">Installing MPI</a></span>
+href="#x1-100003.3" id="QQ2-1-11">Installing MS-MPI</a></span>
 <br />&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<span class="subsectionToc" >3.4 <a 
 href="#x1-110003.4" id="QQ2-1-12">Installing pbdR Packages</a></span>
 <br />&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<span class="subsectionToc" >3.4.1 <a 
@@ -181,20 +181,20 @@ to:
 class="rm-lmss-10x-x-109">R </span>(and Rtools for Windows)<a 
  id="x1-30011"></a>; see <a 
 href="http://cran.r-project.org/" class="url" ><span 
-class="rm-lmtt-10x-x-109">http://cran.r-project.org/</span></a>
+class="rm-lmtt-10x-x-109">http://cran.r-&#x02D9;project.org/</span></a>
      </li>
      <li 
   class="enumerate" id="x1-3004x2">install an MPI library<a 
  id="x1-30032"></a>; <a 
 href="http://www.open-mpi.org/" class="url" ><span 
-class="rm-lmtt-10x-x-109">http://www.open-mpi.org/</span></a>, or <a 
+class="rm-lmtt-10x-x-109">http://www.open-&#x02D9;mpi.org/</span></a>, or <a 
 href="http://www.mpich.org/" class="url" ><span 
 class="rm-lmtt-10x-x-109">http://www.mpich.org/</span></a> for Windows
      </li>
      <li 
   class="enumerate" id="x1-3006x3">install the pbdR packages; see <a 
 href="http://r-pbd.org/" class="url" ><span 
-class="rm-lmtt-10x-x-109">http://r-pbd.org/</span></a></li></ol>
+class="rm-lmtt-10x-x-109">http://r-&#x02D9;pbd.org/</span></a></li></ol>
 <!--l. 16--><p class="noindent" >Items <a 
 href="#x1-30011">1<!--tex4ht:ref: enum:r --></a> and <a 
 href="#x1-30032">2<!--tex4ht:ref: enum:mpi --></a> are interchangeable, and so if you already have <span 
@@ -212,7 +212,7 @@ yourself, should have have reason or need to do so. You can find both the source
 class="rm-lmss-10x-x-109">R</span>
 project&#8217;s main site: <a 
 href="http://cran.r-project.org/" class="url" ><span 
-class="rm-lmtt-10x-x-109">http://cran.r-project.org/</span></a>.
+class="rm-lmtt-10x-x-109">http://cran.r-&#x02D9;project.org/</span></a>.
 <!--l. 21--><p class="noindent" >Additionally, you may wish to customize your <span 
 class="rm-lmss-10x-x-109">R </span>build by compiling from source. For example, you may wish to
 link <span 
@@ -221,7 +221,7 @@ class="rm-lmri-10x-x-109">R Installation and</span>
 <span 
 class="rm-lmri-10x-x-109">Administration Manual </span>at <a 
 href="http://cran.r-project.org/doc/manuals/R-admin.html" class="url" ><span 
-class="rm-lmtt-10x-x-109">http://cran.r-project.org/doc/manuals/R-admin.html</span></a> for full
+class="rm-lmtt-10x-x-109">http://cran.r-&#x02D9;project.org/doc/manuals/R-&#x02D9;admin.html</span></a> for full
 details.
                                                                                              
                                                                                              
@@ -231,22 +231,26 @@ details.
 <!--l. 25--><p class="noindent" >For Linux and Mac users, we recommend installing OpenMPI, which is available from
 <a 
 href="http://www.open-mpi.org/" class="url" ><span 
-class="rm-lmtt-10x-x-109">http://www.open-mpi.org/</span></a> in both binary and source formats. Windows users should install MPICH2,
-available from <a 
-href="http://www.mpich.org/" class="url" ><span 
-class="rm-lmtt-10x-x-109">http://www.mpich.org/</span></a> .
-<!--l. 28--><p class="noindent" >
+class="rm-lmtt-10x-x-109">http://www.open-&#x02D9;mpi.org/</span></a> in both binary and source formats. Windows users should install Microsoft MPI
+or MS-MPI (<a 
+href="http://msdn.microsoft.com/en-us/library/bb524831(v=vs.85).aspx" class="url" ><span 
+class="rm-lmtt-10x-x-109">http://msdn.microsoft.com/en-&#x02D9;us/library/bb524831(v=vs.85).aspx</span></a>). Currently,
+pbdR is built with &#8217;HPC Pack 2012 R2 MS-MPI Redistributable Package&#8217; which is available at
+<a 
+href="http://http://www.microsoft.com/en-us/download/" class="url" ><span 
+class="rm-lmtt-10x-x-109">http://http://www.microsoft.com/en-&#x02D9;us/download/</span></a>.
+<!--l. 29--><p class="noindent" >
 <h4 class="subsectionHead"><span class="titlemark">2.3   </span> <a 
  id="x1-60002.3"></a>Installing pbdR Packages</h4>
-<!--l. 29--><p class="noindent" >All released pbdR packages are available from <a 
+<!--l. 30--><p class="noindent" >All released pbdR packages are available from <a 
 href="http://cran.r-project.org/" class="url" ><span 
-class="rm-lmtt-10x-x-109">http://cran.r-project.org/</span></a> which is the Comprehensive <span 
+class="rm-lmtt-10x-x-109">http://cran.r-&#x02D9;project.org/</span></a> which is the Comprehensive <span 
 class="rm-lmss-10x-x-109">R</span>
 Archive Network (CRAN). This is similar to the CPAN for <span 
 class="rm-lmss-10x-x-109">perl </span>or CTAN for <span class="LATEX">L<span class="A">A</span><span class="TEX">T<span 
 class="E">E</span>X</span></span>, although with many
 improvements and benefits over its competitors.
-<!--l. 31--><p class="noindent" >It is also possible to link pbdR with high performance linear algebra libraries, such as MKL.
+<!--l. 32--><p class="noindent" >It is also possible to link pbdR with high performance linear algebra libraries, such as MKL.
 <hr class="figure"><div class="figure" 
 >
                                                                                              
@@ -255,7 +259,7 @@ improvements and benefits over its competitors.
  id="x1-60011"></a>
                                                                                              
                                                                                              
-<!--l. 34--><p class="noindent" ><img 
+<!--l. 35--><p class="noindent" ><img 
 src="../../../_all/pics/libs.png" alt="PIC"  
 >
 <br /> <div class="caption" 
@@ -263,8 +267,8 @@ src="../../../_all/pics/libs.png" alt="PIC"
 class="content">pbdR Relationships to Libraries</span></div><!--tex4ht:label?: x1-60011 -->
                                                                                              
                                                                                              
-<!--l. 36--><p class="noindent" ></div><hr class="endfigure">
-<!--l. 37--><p class="noindent" >Figure&#x00A0;<a 
+<!--l. 37--><p class="noindent" ></div><hr class="endfigure">
+<!--l. 38--><p class="noindent" >Figure&#x00A0;<a 
 href="#x1-60011">1<!--tex4ht:ref: fig:pbd --></a> offers some insight into the package organization. See the pbdSLAP vignette for more
 details.
 <h3 class="sectionHead"><span class="titlemark">3   </span> <a 
@@ -292,7 +296,7 @@ href="http://cran.us.r-project.org/doc/manuals/R-intro.html" >Introduction to R<
      <li 
   class="enumerate" id="x1-8002x1">Download R: <a 
 href="http://cran.r-project.org/bin/windows/base/" class="url" ><span 
-class="rm-lmtt-10x-x-109">http://cran.r-project.org/bin/windows/base/</span></a> <a 
+class="rm-lmtt-10x-x-109">http://cran.r-&#x02D9;project.org/bin/windows/base/</span></a> <a 
  id="x1-80011"></a>
      </li>
      <li 
@@ -357,7 +361,7 @@ class="rm-lmtt-10x-x-109">&#8221;)</span>
      <li 
   class="enumerate" id="x1-9002x1">Download Rtools: <a 
 href="http://cran.r-project.org/bin/windows/base/" class="url" ><span 
-class="rm-lmtt-10x-x-109">http://cran.r-project.org/bin/windows/base/</span></a> <a 
+class="rm-lmtt-10x-x-109">http://cran.r-&#x02D9;project.org/bin/windows/base/</span></a> <a 
  id="x1-90011"></a>
      </li>
      <li 
@@ -389,82 +393,56 @@ class="rm-lmtt-10x-x-109">defaults)</span>. When you have made your decision, cl
   class="enumerate" id="x1-9016x8">To complete the Rtools installation, select &#8217;Finish&#8217;. </li></ol>
 <!--l. 83--><p class="noindent" >
 <h4 class="subsectionHead"><span class="titlemark">3.3   </span> <a 
- id="x1-100003.3"></a>Installing MPI</h4>
-<!--l. 84--><p class="noindent" >Before proceeding, please be aware that this installation requires administrative privileges.
+ id="x1-100003.3"></a>Installing MS-MPI</h4>
+<!--l. 84--><p class="noindent" >Before proceeding, please be aware that this installation requires Administrative privileges.
 <!--l. 86--><p class="noindent" >
      <ol  class="enumerate1" >
      <li 
-  class="enumerate" id="x1-10002x1">Download                                                    both                                                    the
-     32-bit <a 
-href="http://www.mpich.org/static/tarballs/1.4.1p1/mpich2-1.4.1p1-win-ia32.msi" >mpich2-1.4.1p1-win-i32.msi</a> and the 64-bit <a 
-href="http://www.mpich.org/static/tarballs/1.4.1p1/mpich2-1.4.1p1-win-x86-64.msi" >mpich2-1.4.1p1-win-x86-64.msi</a> installers from:
-     <a 
-href="http://www.mpich.org/" class="url" ><span 
-class="rm-lmtt-10x-x-109">http://www.mpich.org/</span></a> .<a 
+  class="enumerate" id="x1-10002x1">Download  Microsoft  MPI,  MS-MPI,  (HPC  Pack  2012  R2  MS-MPI  Redistributable  Package)
+     installers from: <a 
+href="http://http://www.microsoft.com/en-us/download/" class="url" ><span 
+class="rm-lmtt-10x-x-109">http://http://www.microsoft.com/en-&#x02D9;us/download/</span></a> .<a 
  id="x1-100011"></a>
                                                                                              
                                                                                              
      </li>
      <li 
   class="enumerate" id="x1-10004x2">Open the saved file from <a 
-href="#x1-100011">1<!--tex4ht:ref: enum:mpich2 --></a> above to begin the installation. At the first setup screen, click &#8217;Next&#8217;
+href="#x1-100011">1<!--tex4ht:ref: enum:msmpi --></a> above to begin the installation. At the first setup screen, click &#8217;Next&#8217;
      to continue.
      </li>
      <li 
-  class="enumerate" id="x1-10006x3">When prompted with the system requirements, click &#8217;Next&#8217; to continue.
+  class="enumerate" id="x1-10006x3">When prompted with the license, check &#8220;I accept the terms in the License Agreement&#8221; and then
+     click &#8217;Next&#8217; to continue.
      </li>
      <li 
-  class="enumerate" id="x1-10008x4">When prompted with the license, click &#8220;I agree&#8221; and then click &#8217;Next&#8217; to continue.
+  class="enumerate" id="x1-10008x4">When prompted with the destination folder, click &#8217;Next&#8217; to continue. We recommend you keep
+     the default folders.
      </li>
      <li 
-  class="enumerate" id="x1-10010x5">When prompted with the &#8217;Process Manager setup&#8217; screen, choose a passphrase and then click
-     &#8217;Next&#8217; to continue.
+  class="enumerate" id="x1-10010x5">When prompted with the &#8217;Ready to install Microsoft MPI&#8217;, click &#8217;Install&#8217; to continue.
      </li>
      <li 
-  class="enumerate" id="x1-10012x6">At the &#8217;Select Installation Folder&#8217; screen, we recommend you keep the default folders. By default,
-     the  32-bit  application  will  be  installed  in  <span 
-class="rm-lmtt-10x-x-109">C:</span><span 
-class="cmsy-10x-x-109">\</span><span 
-class="rm-lmtt-10x-x-109">Program Files (x86)</span><span 
-class="cmsy-10x-x-109">\</span><span 
-class="rm-lmtt-10x-x-109">MPICH2</span><span 
-class="cmsy-10x-x-109">\ </span>and  the  64bit
-     application will be installed in <span 
-class="rm-lmtt-10x-x-109">C:</span><span 
-class="cmsy-10x-x-109">\</span><span 
-class="rm-lmtt-10x-x-109">Program Files</span><span 
-class="cmsy-10x-x-109">\</span><span 
-class="rm-lmtt-10x-x-109">MPICH2</span><span 
-class="cmsy-10x-x-109">\</span>.<br 
-class="newline" /> Additionally, you should make the selection for whether or not MPICH2 should be available to
-     all users of this system or just yourself. When you are ready to proceed, click &#8217;Next&#8217;.
-     </li>
-     <li 
-  class="enumerate" id="x1-10014x7">When prompted to confirm the installation, click &#8217;Next&#8217; to proceed.
-     </li>
-     <li 
-  class="enumerate" id="x1-10016x8">To complete the MPICH2 installation, select &#8217;Close&#8217;. </li></ol>
-<!--l. 123--><p class="noindent" >
+  class="enumerate" id="x1-10012x6">To complete the MS-MPI installation, select &#8217;Finish&#8217;. </li></ol>
+<!--l. 114--><p class="noindent" >
 <h4 class="subsectionHead"><span class="titlemark">3.4   </span> <a 
  id="x1-110003.4"></a>Installing pbdR Packages</h4>
-<!--l. 125--><p class="noindent" >Unfortunately, we do not distribute pbdR binary packages on the CRAN for Windows. This means that you
-must install our packages from source on Windows, and the process may be foreign. We will
-present two approaches; the short way, installing from github using the <span 
-class="rm-lmb-10x-x-109">devtools </span>package, and a
-longer way, installing from a downloaded source file. However, do be aware that each of these
-methods requires the installation of the Rtools package from Section&#x00A0;<a 
-href="#x1-90003.2">3.2<!--tex4ht:ref: inst:rtools --></a> (so that step cannot be
-skipped).
-<!--l. 127--><p class="noindent" >Finally, we note that it may not be possible to install the <span 
+<!--l. 116--><p class="noindent" >You may install pbdR packages from source on Windows. We will present two approaches; the short way,
+installing from github using the <span 
+class="rm-lmb-10x-x-109">devtools </span>package, and a longer way, installing from a downloaded source file.
+However, do be aware that each of these methods requires the installation of the Rtools package from
+Section&#x00A0;<a 
+href="#x1-90003.2">3.2<!--tex4ht:ref: inst:rtools --></a> (so that step cannot be skipped).
+<!--l. 118--><p class="noindent" >Finally, we note that it may not be possible to install the <span 
 class="rm-lmb-10x-x-109">pbdNCDF4 </span>package on Windows. We have not
 tested this and, assuming it is possible, it would be very difficult to get NetCDF4 compiled in
 parallel first. If you have success installing this package on Windows, we would love to hear from
 you.
-<!--l. 130--><p class="noindent" >
+<!--l. 121--><p class="noindent" >
 <h5 class="subsubsectionHead"><span class="titlemark">3.4.1   </span> <a 
  id="x1-120003.4.1"></a>Installing from Github</h5>
-<!--l. 132--><p class="noindent" >This is probably the simplest method, assuming that you have Rtools installed and set up correctly. If Rtools
-is not in your PATH, then you may need to enter something like the following: <!--l. 133-->
+<!--l. 123--><p class="noindent" >This is probably the simplest method, assuming that you have Rtools installed and set up correctly. If Rtools
+is not in your PATH, then you may need to enter something like the following: <!--l. 124-->
 <div class="lstlisting" id="listing-2"><span class="label"><a 
  id="x1-12001r1"></a></span><span 
 class="rm-lmtt-10x-x-109">rtools</span><span 
@@ -509,6 +487,36 @@ class="rm-lmtt-10x-x-109">PATH</span><span
 class="rm-lmtt-10x-x-109">&#8221;)</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a 
  id="x1-12005r5"></a></span><span 
+class="rm-lmtt-10x-x-109">###</span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
+class="rm-lmtt-10x-x-109">&#8221;</span><span 
+class="rm-lmtt-10x-x-109">C</span><span 
+class="rm-lmtt-10x-x-109">:&#8220;&#8220;</span><span 
+class="rm-lmtt-10x-x-109">Program</span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
+class="rm-lmtt-10x-x-109">Files</span><span 
+class="rm-lmtt-10x-x-109">&#8220;&#8220;</span><span 
+class="rm-lmtt-10x-x-109">Microsoft</span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
+class="rm-lmtt-10x-x-109">MPI</span><span 
+class="rm-lmtt-10x-x-109">&#8220;&#8220;</span><span 
+class="rm-lmtt-10x-x-109">Bin</span><span 
+class="rm-lmtt-10x-x-109">&#8220;&#8220;&#8221;</span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
+class="rm-lmtt-10x-x-109">should</span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
+class="rm-lmtt-10x-x-109">be</span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
+class="rm-lmtt-10x-x-109">in</span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
+class="rm-lmtt-10x-x-109">the</span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
+class="rm-lmtt-10x-x-109">PATH</span><span 
+class="rm-lmtt-10x-x-109">.</span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a 
+ id="x1-12006r6"></a></span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a 
+ id="x1-12007r7"></a></span><span 
 class="rm-lmtt-10x-x-109">new</span><span 
 class="rm-lmtt-10x-x-109">.</span><span 
 class="rm-lmtt-10x-x-109">PATH</span><span 
@@ -532,36 +540,63 @@ class="rm-lmtt-10x-x-109">=</span><span
 class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
 class="rm-lmtt-10x-x-109">&#8221;;&#8221;)</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a 
- id="x1-12006r6"></a></span><span 
+ id="x1-12008r8"></a></span><span 
 class="rm-lmtt-10x-x-109">Sys</span><span 
 class="rm-lmtt-10x-x-109">.</span><span 
 class="rm-lmtt-10x-x-109">setenv</span><span 
 class="rm-lmtt-10x-x-109">(</span><span 
 class="rm-lmtt-10x-x-109">PATH</span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
 class="rm-lmtt-10x-x-109">=</span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
 class="rm-lmtt-10x-x-109">new</span><span 
 class="rm-lmtt-10x-x-109">.</span><span 
 class="rm-lmtt-10x-x-109">PATH</span><span 
-class="rm-lmtt-10x-x-109">)</span>
-                                                                                             
-                                                                                             
+class="rm-lmtt-10x-x-109">)</span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a 
+ id="x1-12009r9"></a></span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a 
+ id="x1-12010r10"></a></span><span 
+class="rm-lmtt-10x-x-109">Sys</span><span 
+class="rm-lmtt-10x-x-109">.</span><span 
+class="rm-lmtt-10x-x-109">setenv</span><span 
+class="rm-lmtt-10x-x-109">(</span><span 
+class="rm-lmtt-10x-x-109">MPI&#x02D9;ROOT</span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
+class="rm-lmtt-10x-x-109">=</span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
+class="rm-lmtt-10x-x-109">&#8221;</span><span 
+class="rm-lmtt-10x-x-109">C</span><span 
+class="rm-lmtt-10x-x-109">:&#8220;&#8220;</span><span 
+class="rm-lmtt-10x-x-109">Program</span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
+class="rm-lmtt-10x-x-109">Files</span><span 
+class="rm-lmtt-10x-x-109">&#8220;&#8220;</span><span 
+class="rm-lmtt-10x-x-109">Microsoft</span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
+class="rm-lmtt-10x-x-109">MPI</span><span 
+class="rm-lmtt-10x-x-109">&#8221;)</span>
 </div>
-<!--l. 141--><p class="noindent" >Where the <span 
+<!--l. 136--><p class="noindent" >where the <span 
 class="rm-lmtt-10x-x-109">rtools </span>and <span 
-class="rm-lmtt-10x-x-109">mingw </span>directories are as they are on your machine.
-<!--l. 143--><p class="noindent" >Once that is settled, installing is fairly simple. You simply load the <span 
+class="rm-lmtt-10x-x-109">mingw </span>directories are as they are on your machine. Also, &#8220;C:<br 
+class="newline" />Program Files<br 
+class="newline" />Microsoft MPI<br 
+class="newline" />Bin<br 
+class="newline" />&#8221; should be in the &#8220;PATH&#8221; and &#8220;MPI_ROOT&#8221; should be set to where MS-MPI installed.
+<!--l. 138--><p class="noindent" >Once that is settled, installing is fairly simple. You simply load the <span 
 class="rm-lmb-10x-x-109">devtools </span>package and install from our
-github repo as follows: <!--l. 144-->
+github repo as follows: <!--l. 139-->
 <div class="lstlisting" id="listing-3"><span class="label"><a 
- id="x1-12007r1"></a></span><span 
+ id="x1-12011r1"></a></span><span 
 class="rm-lmtt-10x-x-109">library</span><span 
 class="rm-lmtt-10x-x-109">(</span><span 
 class="rm-lmtt-10x-x-109">devtools</span><span 
 class="rm-lmtt-10x-x-109">)</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a 
- id="x1-12008r2"></a></span><span 
+ id="x1-12012r2"></a></span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a 
- id="x1-12009r3"></a></span><span 
+ id="x1-12013r3"></a></span><span 
 class="rm-lmtt-10x-x-109">install&#x02D9;github</span><span 
 class="rm-lmtt-10x-x-109">(</span><span 
 class="rm-lmtt-10x-x-109">repo</span><span 
@@ -574,7 +609,7 @@ class="rm-lmtt-10x-x-109">=&#8221;</span><span
 class="rm-lmtt-10x-x-109">RBigData</span><span 
 class="rm-lmtt-10x-x-109">&#8221;)</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a 
- id="x1-12010r4"></a></span><span 
+ id="x1-12014r4"></a></span><span 
 class="rm-lmtt-10x-x-109">install&#x02D9;github</span><span 
 class="rm-lmtt-10x-x-109">(</span><span 
 class="rm-lmtt-10x-x-109">repo</span><span 
@@ -587,7 +622,7 @@ class="rm-lmtt-10x-x-109">=&#8221;</span><span
 class="rm-lmtt-10x-x-109">RBigData</span><span 
 class="rm-lmtt-10x-x-109">&#8221;)</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a 
- id="x1-12011r5"></a></span><span 
+ id="x1-12015r5"></a></span><span 
 class="rm-lmtt-10x-x-109">install&#x02D9;github</span><span 
 class="rm-lmtt-10x-x-109">(</span><span 
 class="rm-lmtt-10x-x-109">repo</span><span 
@@ -600,7 +635,7 @@ class="rm-lmtt-10x-x-109">=&#8221;</span><span
 class="rm-lmtt-10x-x-109">RBigData</span><span 
 class="rm-lmtt-10x-x-109">&#8221;)</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a 
- id="x1-12012r6"></a></span><span 
+ id="x1-12016r6"></a></span><span 
 class="rm-lmtt-10x-x-109">install&#x02D9;github</span><span 
 class="rm-lmtt-10x-x-109">(</span><span 
 class="rm-lmtt-10x-x-109">repo</span><span 
@@ -613,7 +648,7 @@ class="rm-lmtt-10x-x-109">=&#8221;</span><span
 class="rm-lmtt-10x-x-109">RBigData</span><span 
 class="rm-lmtt-10x-x-109">&#8221;)</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a 
- id="x1-12013r7"></a></span><span 
+ id="x1-12017r7"></a></span><span 
 class="rm-lmtt-10x-x-109">install&#x02D9;github</span><span 
 class="rm-lmtt-10x-x-109">(</span><span 
 class="rm-lmtt-10x-x-109">repo</span><span 
@@ -625,14 +660,16 @@ class="rm-lmtt-10x-x-109">username</span><span
 class="rm-lmtt-10x-x-109">=&#8221;</span><span 
 class="rm-lmtt-10x-x-109">RBigData</span><span 
 class="rm-lmtt-10x-x-109">&#8221;)</span>
+                                                                                             
+                                                                                             
 </div>
-<!--l. 154--><p class="noindent" >You can also install <span 
+<!--l. 149--><p class="noindent" >You can also install <span 
 class="rm-lmri-10x-x-109">really </span>new package builds, which will be very current in terms of features, but also bugs
 (or even complete package breakage). If you&#8217;re sure you want these packages, then you can install them as
 follows:
-<!--l. 156-->
+<!--l. 151-->
 <div class="lstlisting" id="listing-4"><span class="label"><a 
- id="x1-12014r1"></a></span><span 
+ id="x1-12018r1"></a></span><span 
 class="rm-lmtt-10x-x-109">#</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
 class="rm-lmtt-10x-x-109">dev</span><span 
@@ -641,7 +678,7 @@ class="rm-lmtt-10x-x-109">repo</span><span
 class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
 class="rm-lmtt-10x-x-109">1</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a 
- id="x1-12015r2"></a></span><span 
+ id="x1-12019r2"></a></span><span 
 class="rm-lmtt-10x-x-109">install&#x02D9;github</span><span 
 class="rm-lmtt-10x-x-109">(</span><span 
 class="rm-lmtt-10x-x-109">repo</span><span 
@@ -654,7 +691,7 @@ class="rm-lmtt-10x-x-109">=&#8221;</span><span
 class="rm-lmtt-10x-x-109">snoweye</span><span 
 class="rm-lmtt-10x-x-109">&#8221;)</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a 
- id="x1-12016r3"></a></span><span 
+ id="x1-12020r3"></a></span><span 
 class="rm-lmtt-10x-x-109">install&#x02D9;github</span><span 
 class="rm-lmtt-10x-x-109">(</span><span 
 class="rm-lmtt-10x-x-109">repo</span><span 
@@ -667,7 +704,7 @@ class="rm-lmtt-10x-x-109">=&#8221;</span><span
 class="rm-lmtt-10x-x-109">snoweye</span><span 
 class="rm-lmtt-10x-x-109">&#8221;)</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a 
- id="x1-12017r4"></a></span><span 
+ id="x1-12021r4"></a></span><span 
 class="rm-lmtt-10x-x-109">#</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
 class="rm-lmtt-10x-x-109">dev</span><span 
@@ -676,7 +713,7 @@ class="rm-lmtt-10x-x-109">repo</span><span
 class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
 class="rm-lmtt-10x-x-109">2</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a 
- id="x1-12018r5"></a></span><span 
+ id="x1-12022r5"></a></span><span 
 class="rm-lmtt-10x-x-109">install&#x02D9;github</span><span 
 class="rm-lmtt-10x-x-109">(</span><span 
 class="rm-lmtt-10x-x-109">repo</span><span 
@@ -689,7 +726,7 @@ class="rm-lmtt-10x-x-109">=&#8221;</span><span
 class="rm-lmtt-10x-x-109">wrathematics</span><span 
 class="rm-lmtt-10x-x-109">&#8221;)</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a 
- id="x1-12019r6"></a></span><span 
+ id="x1-12023r6"></a></span><span 
 class="rm-lmtt-10x-x-109">install&#x02D9;github</span><span 
 class="rm-lmtt-10x-x-109">(</span><span 
 class="rm-lmtt-10x-x-109">repo</span><span 
@@ -702,7 +739,7 @@ class="rm-lmtt-10x-x-109">=&#8221;</span><span
 class="rm-lmtt-10x-x-109">wrathematics</span><span 
 class="rm-lmtt-10x-x-109">&#8221;)</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a 
- id="x1-12020r7"></a></span><span 
+ id="x1-12024r7"></a></span><span 
 class="rm-lmtt-10x-x-109">install&#x02D9;github</span><span 
 class="rm-lmtt-10x-x-109">(</span><span 
 class="rm-lmtt-10x-x-109">repo</span><span 
@@ -715,7 +752,7 @@ class="rm-lmtt-10x-x-109">=&#8221;</span><span
 class="rm-lmtt-10x-x-109">wrathematics</span><span 
 class="rm-lmtt-10x-x-109">&#8221;)</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a 
- id="x1-12021r8"></a></span><span 
+ id="x1-12025r8"></a></span><span 
 class="rm-lmtt-10x-x-109">install&#x02D9;github</span><span 
 class="rm-lmtt-10x-x-109">(</span><span 
 class="rm-lmtt-10x-x-109">repo</span><span 
@@ -728,18 +765,18 @@ class="rm-lmtt-10x-x-109">=&#8221;</span><span
 class="rm-lmtt-10x-x-109">wrathematics</span><span 
 class="rm-lmtt-10x-x-109">&#8221;)</span>
 </div>
-<!--l. 169--><p class="noindent" >
+<!--l. 164--><p class="noindent" >
 <h5 class="subsubsectionHead"><span class="titlemark">3.4.2   </span> <a 
  id="x1-130003.4.2"></a>Installing from Downloaded Source</h5>
-<!--l. 171--><p class="noindent" >
+<!--l. 166--><p class="noindent" >
      <ol  class="enumerate1" >
      <li 
   class="enumerate" id="x1-13002x1">To help simplify things, we offer a simple <a 
 href="https://github.com/wrathematics/installation-instructions/raw/master/windows/build_pbdMPI.bat" >install script</a> which makes managing the <span 
 class="rm-lmtt-10x-x-109">PATH </span>slightly
      simpler. By default, this is for <span 
-class="rm-lmss-10x-x-109">R </span>version 2.15.3 and <span 
-class="rm-lmb-10x-x-109">pbdMPI </span>version 0.1-6. If you have a different
+class="rm-lmss-10x-x-109">R </span>version 3.0.1 and <span 
+class="rm-lmb-10x-x-109">pbdMPI </span>version 0.2-3. If you have a different
      version of R or want to install a different version of <span 
 class="rm-lmb-10x-x-109">pbdMPI</span>, simply change lines 4 and/or 5 of
      the install script to match your needs.
@@ -752,24 +789,30 @@ class="rm-lmtt-10x-x-109">R</span>, and then entering <span
 class="rm-lmtt-10x-x-109">cmd </span>in the &#8220;run&#8221; dialog box.
      </li>
      <li 
-  class="enumerate" id="x1-13006x3">Before proceeding further, it is probably a good idea to test the installation of MPICH2. The following
-     commands utilize MPICH2 to do some fairly trivial things (do not copy <span 
+  class="enumerate" id="x1-13006x3">Before proceeding further, it is probably a good idea to test the installation of MS-MPI. The following
+     commands utilize MS-MPI to do some fairly trivial things (do not copy <span 
 class="rm-lmtt-10x-x-109">SHELL¿ </span>if you are copying and
-     pasting from the lines below): <!--l. 179-->
+     pasting from the lines below): <!--l. 172-->
      <div class="lstlisting" id="listing-5"><span class="label"><a 
  id="x1-13007r1"></a></span><span 
 class="rm-lmtt-10x-x-109">SHELL</span><span 
 class="rm-lmtt-10x-x-109">¿</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
+class="rm-lmtt-10x-x-109">&#8221;</span><span 
 class="rm-lmtt-10x-x-109">C</span><span 
 class="rm-lmtt-10x-x-109">:&#8220;</span><span 
-class="rm-lmtt-10x-x-109">PROGRA</span><span 
-class="rm-lmtt-10x-x-109">&#x02DC;1&#8220;</span><span 
-class="rm-lmtt-10x-x-109">MPICH2</span><span 
+class="rm-lmtt-10x-x-109">Program</span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
+class="rm-lmtt-10x-x-109">Files</span><span 
 class="rm-lmtt-10x-x-109">&#8220;</span><span 
-class="rm-lmtt-10x-x-109">bin</span><span 
+class="rm-lmtt-10x-x-109">Microsoft</span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
+class="rm-lmtt-10x-x-109">MPI</span><span 
+class="rm-lmtt-10x-x-109">&#8220;</span><span 
+class="rm-lmtt-10x-x-109">Bin</span><span 
 class="rm-lmtt-10x-x-109">&#8220;</span><span 
 class="rm-lmtt-10x-x-109">mpiexec</span><span 
+class="rm-lmtt-10x-x-109">&#8221;</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
 class="rm-lmtt-10x-x-109">-</span><span 
 class="rm-lmtt-10x-x-109">np</span><span 
@@ -784,17 +827,21 @@ class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a
 class="rm-lmtt-10x-x-109">SHELL</span><span 
 class="rm-lmtt-10x-x-109">¿</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
+class="rm-lmtt-10x-x-109">&#8221;</span><span 
 class="rm-lmtt-10x-x-109">C</span><span 
 class="rm-lmtt-10x-x-109">:&#8220;</span><span 
-class="rm-lmtt-10x-x-109">PROGRA</span><span 
-class="rm-lmtt-10x-x-109">&#x02DC;1&#8220;</span><span 
+class="rm-lmtt-10x-x-109">Program</span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
+class="rm-lmtt-10x-x-109">Files</span><span 
+class="rm-lmtt-10x-x-109">&#8220;</span><span 
 class="rm-lmtt-10x-x-109">R</span><span 
 class="rm-lmtt-10x-x-109">&#8220;</span><span 
 class="rm-lmtt-10x-x-109">R</span><span 
-class="rm-lmtt-10x-x-109">-2.15.1&#8220;</span><span 
+class="rm-lmtt-10x-x-109">-3.0.1&#8220;</span><span 
 class="rm-lmtt-10x-x-109">bin</span><span 
 class="rm-lmtt-10x-x-109">&#8220;</span><span 
 class="rm-lmtt-10x-x-109">R</span><span 
+class="rm-lmtt-10x-x-109">&#8221;</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
 class="rm-lmtt-10x-x-109">--</span><span 
 class="rm-lmtt-10x-x-109">vanilla</span><span 
@@ -814,17 +861,21 @@ class="rm-lmtt-10x-x-109">&#x00A0;</span><br /><span class="label"><a
 class="rm-lmtt-10x-x-109">SHELL</span><span 
 class="rm-lmtt-10x-x-109">¿</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
+class="rm-lmtt-10x-x-109">&#8221;</span><span 
 class="rm-lmtt-10x-x-109">C</span><span 
 class="rm-lmtt-10x-x-109">:&#8220;</span><span 
-class="rm-lmtt-10x-x-109">PROGRA</span><span 
-class="rm-lmtt-10x-x-109">&#x02DC;1&#8220;</span><span 
+class="rm-lmtt-10x-x-109">Program</span><span 
+class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
+class="rm-lmtt-10x-x-109">Files</span><span 
+class="rm-lmtt-10x-x-109">&#8220;</span><span 
 class="rm-lmtt-10x-x-109">R</span><span 
 class="rm-lmtt-10x-x-109">&#8220;</span><span 
 class="rm-lmtt-10x-x-109">R</span><span 
-class="rm-lmtt-10x-x-109">-2.15.1&#8220;</span><span 
+class="rm-lmtt-10x-x-109">-3.0.1&#8220;</span><span 
 class="rm-lmtt-10x-x-109">bin</span><span 
 class="rm-lmtt-10x-x-109">&#8220;</span><span 
 class="rm-lmtt-10x-x-109">Rscript</span><span 
+class="rm-lmtt-10x-x-109">&#8221;</span><span 
 class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
 class="rm-lmtt-10x-x-109">--</span><span 
 class="rm-lmtt-10x-x-109">vanilla</span><span 
@@ -844,7 +895,7 @@ class="rm-lmtt-10x-x-109">&#8221;</span>
      </li>
      <li 
   class="enumerate" id="x1-13011x4">Download the <a 
-href="http://cran.r-project.org/src/contrib/pbdMPI_0.1-6.tar.gz" >source</a> for <a 
+href="http://cran.r-project.org/src/contrib/pbdMPI_0.2-3.tar.gz" >source</a> for <a 
 href="http://cran.r-project.org/web/packages/pbdMPI/index.html" ><span 
 class="rm-lmb-10x-x-109">pbdMPI</span></a> package. Put it in the same directory as your <span 
 class="rm-lmtt-10x-x-109">build&#x02D9;pbdMPI.bat </span>file,
@@ -854,8 +905,6 @@ class="rm-lmtt-10x-x-109">build&#x02D9;pbdMPI.bat </span>from the command prompt
      <li 
   class="enumerate" id="x1-13013x5">If the process is done without errors, you can see the binary package is installed. </li></ol>
 <!--l. 1--><p class="noindent" >
-                                                                                             
-                                                                                             
 <h3 class="sectionHead"><span class="titlemark">4   </span> <a 
  id="x1-140004"></a>Mac OS X<hr></h3>
 <!--l. 3--><p class="noindent" >Before starting, make sure you have installed Apple&#8217;s <a 
@@ -865,6 +914,8 @@ it from Finder by navigating to the Applications folder; it should be called Ter
 have never used the terminal before, you might consider skimming <a 
 href="http://guides.macrumors.com/Terminal" >this simple guide</a> on terminal
 basics.
+                                                                                             
+                                                                                             
 <!--l. 5--><p class="noindent" >If you are completely new to <span 
 class="rm-lmss-10x-x-109">R</span>, then you might consider reading (or at least skimming) this useful guide, <a 
 href="http://cran.r-project.org/bin/macosx/RMacOSX-FAQ.html" >R for
@@ -887,14 +938,14 @@ source.
 <!--l. 15--><p class="noindent" >
      <ol  class="enumerate1" >
      <li 
-  class="enumerate" id="x1-16002x1">First       you       should       download       <span 
-class="rm-lmss-10x-x-109">R       </span>from       the       official       distribution
-     site: <a 
+  class="enumerate" id="x1-16002x1">First      you      should      download      <span 
+class="rm-lmss-10x-x-109">R      </span>from      the      official      distribution      site:
+     <a 
 href="http://cran.r-project.org/bin/macosx/" class="url" ><span 
-class="rm-lmtt-10x-x-109">http://cran.r-project.org/bin/macosx/</span></a> <a 
+class="rm-lmtt-10x-x-109">http://cran.r-&#x02D9;project.org/bin/macosx/</span></a> <a 
  id="x1-160011"></a> Download the <span 
-class="rm-lmss-10x-x-109">R </span>dmg package for Mac OS X.
-     We recommend grabbing the latest version of <span 
+class="rm-lmss-10x-x-109">R </span>dmg package for Mac OS X. We
+     recommend grabbing the latest version of <span 
 class="rm-lmss-10x-x-109">R </span>available.
      </li>
      <li 
@@ -922,8 +973,6 @@ class="rm-lmss-10x-x-109">R </span>is
      </li>
      <li 
   class="enumerate" id="x1-16014x7">Once the installation process begins, wait a few moments for the packages to validate and install.
-                                                                                             
-                                                                                             
      </li>
      <li 
   class="enumerate" id="x1-16016x8">Once the installation completes successfully, click &#8217;Close&#8217; to finish the installation process. </li></ol>
@@ -933,6 +982,8 @@ terminal. To launch the <span
 class="rm-lmss-10x-x-109">R </span>&#8220;gui&#8221;, simply go to your Applications folder in Finder and double-click
 <span 
 class="rm-lmtt-10x-x-109">R.app</span>.
+                                                                                             
+                                                                                             
 <!--l. 54--><p class="noindent" >Once <span 
 class="rm-lmss-10x-x-109">R </span>is finished installing, you need to install the <a 
 href="http://cran.r-project.org/web/packages/rlecuyer/index.html" ><span 
@@ -955,7 +1006,7 @@ class="rm-lmtt-10x-x-109">&#8221;)</span>
 <!--l. 65--><p class="noindent" >You can find <span 
 class="rm-lmss-10x-x-109">R </span>sources from <a 
 href="http://cran.r-project.org/sources.html" class="url" ><span 
-class="rm-lmtt-10x-x-109">http://cran.r-project.org/sources.html</span></a>
+class="rm-lmtt-10x-x-109">http://cran.r-&#x02D9;project.org/sources.html</span></a>
 <!--l. 67--><p class="noindent" >Start by opening a terminal and navigate to the folder containing the <span 
 class="rm-lmss-10x-x-109">R </span>source package you just downloaded.
 You can extract the archive by executing, for example <!--l. 68-->
@@ -1000,8 +1051,6 @@ hours for some machines.
 <!--l. 92--><p class="noindent" >
 <h5 class="subsubsectionHead"><span class="titlemark">4.2.1   </span> <a 
  id="x1-190004.2.1"></a>Installing from a MacPorts</h5>
-                                                                                             
-                                                                                             
 <!--l. 94--><p class="noindent" >Arguably the easiest way to install OpenMPI for a Mac (that I&#8217;m aware of) is using <a 
 href="https://www.macports.org/" >MacPorts</a>, which is not
 unlike some source repositories for Linux. You can find information about installing MacPorts from <a 
@@ -1009,6 +1058,8 @@ href="https://www.macports.org/install.php" >MacPorts
 installation page</a>, maintained by the MacPorts project.
 <!--l. 96--><p class="noindent" >Once you have MacPorts installed, you can install openmpi from a terminal by issuing the command:
 <!--l. 97-->
+                                                                                             
+                                                                                             
 <div class="lstlisting" id="listing-9"><span class="label"><a 
  id="x1-19001r1"></a></span><span 
 class="rm-lmtt-10x-x-109">sudo</span><span 
@@ -1062,13 +1113,13 @@ class="rm-lmtt-10x-x-109">(</span><span
 class="rm-lmtt-10x-x-109">pbdMPI</span><span 
 class="rm-lmtt-10x-x-109">)</span>
 </div>
-                                                                                             
-                                                                                             
 <h5 class="subsubsectionHead"><span class="titlemark">4.3.2   </span> <a 
  id="x1-230004.3.2"></a>Installing from the Shell</h5>
 <!--l. 129--><p class="noindent" >If you have downloaded a pbdR (or other <span 
 class="rm-lmss-10x-x-109">R</span>) package, then installing from the shell simply amounts to issuing
 the command: <!--l. 130-->
+                                                                                             
+                                                                                             
 <div class="lstlisting" id="listing-12"><span class="label"><a 
  id="x1-23001r1"></a></span><span 
 class="rm-lmtt-10x-x-109">R</span><span 
@@ -1317,8 +1368,6 @@ class="rm-lmtt-10x-x-109">&#8221;)</span>
  id="x1-250005"></a>Linux and FreeBSD<hr></h3>
 <!--l. 3--><p class="noindent" >Before starting, you may need root access to your machine. Also, you will need to know how to do some simple
 things via the terminal. If you&#8217;re using a standard Linux desktop, you probably have a terminal launcher in
-                                                                                             
-                                                                                             
 your applications menu somewhere. If you&#8217;re using some kind of weirdo tiling thing from 1990, then I assume
 you know what you&#8217;re doing. Additionally, if you are inexperienced with using the terminal, you should
 consider skimming <a 
@@ -1326,6 +1375,8 @@ href="http://community.linuxmint.com/tutorial/view/100" >this short introduction
 <!--l. 5--><p class="noindent" >On Linux, unless you have a specific reason not to (in which case, most of this document is probably
 unnecessary for you), we recommend that you install <span 
 class="rm-lmss-10x-x-109">R </span>and MPI through your distribution&#8217;s package
+                                                                                             
+                                                                                             
 repository (especially MPI). This will make the installation process <span 
 class="rm-lmri-10x-x-109">much </span>simpler, and generally &#8220;just
 works&#8221;.
@@ -1406,15 +1457,15 @@ class="rm-lmtt-10x-x-109">install</span><span
 class="rm-lmtt-10x-x-109">&#x00A0;</span><span 
 class="rm-lmtt-10x-x-109">clean</span>
 </div>
-                                                                                             
-                                                                                             
 <!--l. 47--><p class="noindent" >
 <h5 class="subsubsectionHead"><span class="titlemark">5.1.2   </span> <a 
  id="x1-280005.1.2"></a>Compiling from Source</h5>
+                                                                                             
+                                                                                             
 <!--l. 49--><p class="noindent" >You can find <span 
 class="rm-lmss-10x-x-109">R </span>sources from <a 
 href="http://cran.r-project.org/sources.html" class="url" ><span 
-class="rm-lmtt-10x-x-109">http://cran.r-project.org/sources.html</span></a>
+class="rm-lmtt-10x-x-109">http://cran.r-&#x02D9;project.org/sources.html</span></a>
 <!--l. 51--><p class="noindent" >Start by opening a terminal and navigate to the folder containing the <span 
 class="rm-lmss-10x-x-109">R </span>source package you just downloaded.
 You can extract the archive by executing, for example <!--l. 52-->
@@ -1501,9 +1552,9 @@ class="rm-lmtt-10x-x-109">lam</span><span
 class="rm-lmtt-10x-x-109">-</span><span 
 class="rm-lmtt-10x-x-109">devel</span>
 </div>
-                                                                                             
-                                                                                             
 <!--l. 96--><p class="noindent" >If you are using FreeBSD: <!--l. 97-->
+                                                                                             
+                                                                                             
 <div class="lstlisting" id="listing-25"><span class="label"><a 
  id="x1-30004r1"></a></span><span 
 class="rm-lmtt-10x-x-109">cd</span><span 
@@ -1933,11 +1984,11 @@ individual projects.
 class="rm-lmri-10x-x-109">R Installation and Administration Manual </span>at
 <a 
 href="http://cran.r-project.org/doc/manuals/R-admin.html" class="url" ><span 
-class="rm-lmtt-10x-x-109">http://cran.r-project.org/doc/manuals/R-admin.html</span></a> for help.
+class="rm-lmtt-10x-x-109">http://cran.r-&#x02D9;project.org/doc/manuals/R-&#x02D9;admin.html</span></a> for help.
 <!--l. 9--><p class="noindent" >If you are having trouble installing an MPI library, you should see that library&#8217;s official documentation.
 For OpenMPI, see <a 
 href="http://www.open-mpi.org/community/help/" class="url" ><span 
-class="rm-lmtt-10x-x-109">http://www.open-mpi.org/community/help/</span></a> and for MPICH, see
+class="rm-lmtt-10x-x-109">http://www.open-&#x02D9;mpi.org/community/help/</span></a> and for MPICH, see
 <a 
 href="http://www.mpich.org/documentation/guides/" class="url" ><span 
 class="rm-lmtt-10x-x-109">http://www.mpich.org/documentation/guides/</span></a> .
