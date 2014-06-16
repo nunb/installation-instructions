@@ -101,7 +101,13 @@ cd /usr/ports/net/openmpi && make install clean
 
 
 \subsubsection{Compiling from Source}
-If you want to install OpenMPI from source (I don't really recommend this unless this document is irrelevant to you in the first place), then the sources are available here:  \url{http://www.open-mpi.org/software/ompi/v1.6/} .
+<<<<<<< HEAD
+=======
+
+If you want to install OpenMPI from source (I don't really recommend this unless you think you have a good reason to), then the sources are available \href{http://www.open-mpi.org/software/ompi/v1.6/}{here}.
+>>>>>>> 277a97725e5d864f08a4c926c677bba3885f71e5
+
+If you want to install OpenMPI from source (I don't really recommend this unless you think you have a good reason to), then the sources are available \href{http://www.open-mpi.org/software/ompi/v1.6/}{here}.
 
 
 
@@ -110,8 +116,10 @@ If you want to install OpenMPI from source (I don't really recommend this unless
 
 
 
+<<<<<<< HEAD
 
-
+=======
+>>>>>>> 277a97725e5d864f08a4c926c677bba3885f71e5
 \subsection{Installing pbdR Packages}
 Installing pbdR should go smoothly.  The simplest way to install the packages is from an \proglang{R} terminal, which will manage dependencies for you much like your distro's package manager.  Additionally, our packages are available in the Fedora repositories.
 
@@ -142,6 +150,7 @@ R CMD INSTALL pbdMPI_0.1-6.tar.gz
 CRAN policy is such that updates to packages can not be made too frequently.  For this reason, the development versions of our packages will have bugfixes and new features much more quickly than CRAN versions.  
 
 The easiest way to install from github is using Hadley Wichkam's \pkg{devtools} package (which can be installed via \code{install.packages(devtools)}).  Assuming you have this package installed, then from an \proglang{R} session, to install a pbdR package you would issue one of the following:
+<<<<<<< HEAD
 
 \begin{lstlisting}[language=rr]
 library(devtools)
@@ -158,6 +167,24 @@ install_github(repo="pbdDEMO", username="RBigData")
 You can also install \emph{really} new package builds, which will be very current in terms of features, but also bugs (or even complete package breakage).  If you're sure you want these packages, then you can install them as follows:
 
 \begin{lstlisting}[language=rr]
+=======
+
+\begin{lstlisting}[language=rr]
+library(devtools)
+
+install_github(repo="pbdMPI", username="RBigData")
+install_github(repo="pbdSLAP", username="RBigData")
+install_github(repo="pbdNCDF4", username="RBigData")
+install_github(repo="pbdNCDF4", username="RBigData")
+install_github(repo="pbdBASE", username="RBigData")
+install_github(repo="pbdDMAT", username="RBigData")
+install_github(repo="pbdDEMO", username="RBigData")
+\end{lstlisting}
+
+You can also install \emph{really} new package builds, which will be very current in terms of features, but also bugs (or even complete package breakage).  If you're sure you want these packages, then you can install them as follows:
+
+\begin{lstlisting}[language=rr]
+>>>>>>> 277a97725e5d864f08a4c926c677bba3885f71e5
 # dev repo 1
 install_github(repo="pbdMPI", username="snoweye")
 install_github(repo="pbdSLAP", username="snoweye")
@@ -168,3 +195,6 @@ install_github(repo="pbdBASE", username="wrathematics")
 install_github(repo="pbdDMAT", username="wrathematics")
 install_github(repo="pbdDEMO", username="wrathematics")
 \end{lstlisting}
+
+
+\input{cray_common_install.tex}
