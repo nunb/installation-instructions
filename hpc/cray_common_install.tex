@@ -1,12 +1,13 @@
-\section{R and pbdR installation on Cray system }\label{sec:Rinstall}
+\section{R and pbdR installation on Cray system }\label{sec:Roncray}
 
 Below is installation instructions of \proglang{R} on Cray machine. 
 Prerequisites for R and pbdR software installation on Cray machine: GCC, Cray-MPICH and ACML/MKL.
 
 We use following software tools/packages: Programming Environment GNU-4.2.34 with \pkg{GCC}-4.8.2, \pkg{Cray-MPICH}-6.2.0, \pkg{ACML}-5.3.1, and \proglang{R} 3.0.2(compied dynamically). The \proglang{R} packages and their corresponding versions used in these: \pkg{rlecuyer} 0.3-3, \pkg{memuse} 0.2-0, \pkg{pbdMPI} 0.2-2, \pkg{pbdSLAP} 0.1-8, \pkg{SEXPtools} 0.1-0, \pkg{pbdBASE} 0.3-0, and \pkg{pbdDMAT} 0.3-0.
 
-\vspace*{-.5cm}
-\begin{lstlisting}[language=bashy]
+The below script is also available \href{../../../hpc/cray_pbdR.sh}{here}.
+
+\begin{lstlisting}[language=bash]
 
 ## Load/set appropriate modules and software environments 
 module swap PrgEnv-cray PrgEnv-gnu/4.2.34

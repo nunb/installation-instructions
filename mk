@@ -86,6 +86,15 @@ elif [ "$1" = "linux" ]; then
   
   gen "linux"
   
+elif [ "$1" = "hpc" ]; then
+  checkexist .sec_ct
+  echo "\setcounter{include_windows}{0}" >> .sec_ct
+  echo "\setcounter{include_mac}{0}" >> .sec_ct
+  echo "\setcounter{include_linux}{0}" >> .sec_ct
+  echo "\setcounter{include_hpc}{1}" >> .sec_ct
+  
+  gen "hpc"
+  
 else
   echo "Error : you must specify compilation for all, win, mac, or linux"
 fi
