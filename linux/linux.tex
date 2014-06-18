@@ -114,7 +114,8 @@ If you want to install OpenMPI from source (I don't really recommend this unless
 
 \subsection{Installing pbdR Packages}
 Before beginning, please ensure that you have the prerequisite package 
-\href{http://cran.r-project.org/web/packages/rlecuyer/index.html}\pkg{rlecuyer}}
+\href{http://cran.r-project.org/web/packages/rlecuyer/index.html}%
+{\pkg{rlecuyer}}
 installed.
 
 Installing pbdR should go smoothly.  The simplest way to install the packages is from an \proglang{R} terminal, which will manage dependencies for you much like your distro's package manager.  Additionally, our packages are available in the Fedora repositories.
@@ -172,3 +173,14 @@ install_github(repo="pbdBASE", username="wrathematics")
 install_github(repo="pbdDMAT", username="wrathematics")
 install_github(repo="pbdDEMO", username="wrathematics")
 \end{lstlisting}
+
+
+
+
+\subsection{Other Issues}
+If you are using a cluster or supercomputer whose compute nodes do not have 
+access to NFS storage, you may need to copy over some of the shared libraries 
+necessary to build pbdR to your shared lustre space.  You can use
+\href{../../../hpc/dyn_libs_copy.sh}{this script} to help with this task.
+An example of its usage is in
+\href{../../../hpc/cray_pbdR.sh}{this example Cray build script}.
