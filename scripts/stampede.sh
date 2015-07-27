@@ -22,10 +22,16 @@ unzip master
 rm master.zip
 mv pbdMPI-master pbdMPI
 
+chmod +x pbdMPI/configure
+chmod +x pbdMPI/cleanup
+
 wget https://github.com/snoweye/pbdSLAP/archive/master.zip
 unzip master
 rm master.zip
 mv pbdSLAP-master pbdSLAP
+
+chmod +x pbdSLAP/configure
+chmod +x pbdSLAP/cleanup
 
 wget https://github.com/wrathematics/pbdBASE/archive/master.zip
 unzip master
@@ -36,6 +42,10 @@ wget https://github.com/wrathematics/pbdDMAT/archive/master.zip
 unzip master
 rm master.zip
 mv pbdDMAT-master pbdDMAT
+
+
+
+R CMD INSTALL rlecuyer_0.3-3.tar.gz
 
 R CMD INSTALL pbdMPI --configure-args="--with-mpi=$I_MPI_ROOT --with-mpi-include=$I_MPI_ROOT/include64 --with-mpi-libpath=$I_MPI_ROOT/lib64/ --with-mpi-type=INTELMPI"
 
